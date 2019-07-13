@@ -1,8 +1,14 @@
-brain_match
+A standardized protocol for efficient and reliable quality control of brain registration in functional MRI studies
 ==============================
+Yassine Benhajali, AmanPreet Badhwar, Helen Spiers, Sebastian Urchs, Jonathan Armoza, Thomas Ong, Daniel Pérusse, Pierre Bellec
 
-Make quality control (QC) of brain images an easy and reliable task
+Abstract
+---------
+Automatic alignment of brain anatomy in a standard space is a key step when processing magnetic resonance imaging for group analyses. Such brain registration is prone to failure, and the results are typically reviewed visually to ensure quality. There is however no standard, validated protocol available to perform this visual quality control. We propose here a standardized QC protocol for brain registration, with minimal training overhead and no required knowledge of brain anatomy. We validated the reliability of three-level QC ratings (OK, Maybe, Fail) across different raters. Nine experts rated N=100 validation images, and reached moderate to good agreement (Kappa from 0.4 to 0.68, average of 0.54±0.08), with the highest agreement for “Fail” images (Dice from 0.67 to 0.93, average of 0.8±0.06). We then recruited volunteers though the Zooniverse crowdsourcing platform, and extracted a consus panel rating for both Zooniverse raters (N=41) and expert raters (N=9). The agreement between expert and Zooniverse panels was high (kappa=0.76), demonstrating the feasibility of crowdsourcing QC of brain registration. The inter-panels agreement remained high even when considered smaller expert panels (N=3 for experts, N~20 for zooniverse, kappa ranging from 0.5 to 0.87). Our brain registration QC protocol will help standardize QC practices across laboratories, improve the consistency of reporting of QC in publications, and will open the way for QC assessment of large datasets which could be used to train automated QC systems.
 
+QC protocol
+------------
+![](https://github.com/SIMEXP/brain_match/blob/master/reports/figures/method/fig_visual_inspection_V5.png?raw=true)
 Project Organization
 ------------
 
